@@ -1,0 +1,12 @@
+{
+  "name": "lesson06-multi-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --test test.js",
+    "start": "node main.js"
+  },
+  "license": "ISC",
+  "description": "第6课 · 多 Agent 协作（Node 版）：委派/隔离/防递归/并行"
+}

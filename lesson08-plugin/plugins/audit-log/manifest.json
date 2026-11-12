@@ -1,0 +1,14 @@
+{
+  "name": "audit-log",
+  "version": "1.0.0",
+  "description": "安全审计插件：工具调用留痕、危险命令拦截、敏感信息脱敏、使用统计",
+  "hooks": ["preToolUse", "postToolUse"],
+  "config": {
+    "logFile": "audit.log",
+    "dangerRules": [
+      { "tool": "run_shell", "field": "command", "pattern": "rm\\s+-rf\\b", "reason": "拦截递归删除 rm -rf" },
+      { "tool": "run_shell", "field": "command", "pattern": "\\bshutdown\\b", "reason": "拦截关机命令" },
+      { "tool": "run_shell", "field": "command", "pattern": ":\\?\\(\\)\\s*\\{", "reason": "拦截 fork bomb" }
+    ]
+  }
+}

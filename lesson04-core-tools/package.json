@@ -1,0 +1,12 @@
+{
+  "name": "lesson04-core-tools",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --test test.js",
+    "start": "node main.js"
+  },
+  "license": "ISC",
+  "description": "第4课 · 高杠杆核心工具（Node 版）：代码执行/搜索/文件/HTTP"
+}

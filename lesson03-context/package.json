@@ -1,0 +1,12 @@
+{
+  "name": "lesson03-context",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --test test.js test-context.js",
+    "start": "node main.js"
+  },
+  "license": "ISC",
+  "description": "第3课 · 上下文管理（合并版）：完整工具系统 + 上下文预算管理"
+}

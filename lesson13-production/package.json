@@ -1,0 +1,12 @@
+{
+  "name": "lesson13-production",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --test --test-force-exit test.js",
+    "start": "node main.js"
+  },
+  "license": "ISC",
+  "description": "第13课 · 生产级落地（Node 版）：重试/熔断、流式、观测、评测"
+}

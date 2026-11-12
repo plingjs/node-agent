@@ -1,0 +1,14 @@
+{
+  "name": "lesson01-minimal-agent",
+  "version": "1.0.0",
+  "description": "第1课 · 最小 Agent 循环（Node 版）：Function Calling 协议 + 主循环 + 工具执行",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test.js",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

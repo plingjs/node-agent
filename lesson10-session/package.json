@@ -1,0 +1,12 @@
+{
+  "name": "lesson10-session",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --test test.js",
+    "start": "node main.js"
+  },
+  "license": "ISC",
+  "description": "第10课 · 多会话 + 保存恢复（Node 版）：序列化/原子写/跨进程恢复"
+}

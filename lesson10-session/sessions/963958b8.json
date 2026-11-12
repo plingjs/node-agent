@@ -1,0 +1,27 @@
+{
+  "session_id": "963958b8",
+  "title": "hi",
+  "model": "qwen38-27b",
+  "created_at": 1787657828269,
+  "updated_at": 1787657845073,
+  "message_count": 1,
+  "system": [
+    {
+      "role": "system",
+      "content": "你是带记忆、委派、技能、外部系统接入的 Agent。回答简洁准确，优先使用工具探索再回答。"
+    }
+  ],
+  "summary": "",
+  "recent": [
+    {
+      "role": "user",
+      "content": "hi"
+    },
+    {
+      "role": "assistant",
+      "content": "\n\n嗨！有什么我可以帮你的吗？无论是排查 bug、代码审查、还是生成报告，都可以交给我。",
+      "reasoning_content": "The user is just saying \"hi\". This is a simple greeting. I should respond in a friendly and concise manner. No tools needed.\n",
+      "tool_calls": null
+    }
+  ]
+}

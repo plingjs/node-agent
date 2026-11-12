@@ -1,0 +1,12 @@
+{
+  "name": "lesson02-tool-system",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --test test.js",
+    "start": "node main.js"
+  },
+  "license": "ISC",
+  "description": "第2课 · 工具系统（Node 版）：注册表/schema/校验/错误/权限/防失控"
+}

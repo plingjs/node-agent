@@ -1,0 +1,12 @@
+{
+  "name": "lesson05-memory",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --test test.js",
+    "start": "node main.js"
+  },
+  "license": "ISC",
+  "description": "第5课 · RAG 记忆（Node 版）：存储/提取/召回/异步调度/注入"
+}

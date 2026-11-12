@@ -1,0 +1,37 @@
+{
+  "session_id": "91af54eb",
+  "title": "hello",
+  "model": "",
+  "created_at": 1787657936558,
+  "updated_at": 1787657945626,
+  "message_count": 2,
+  "system": [
+    {
+      "role": "system",
+      "content": "你是通过 IM 提供服务的 AI 助手，拥有记忆、工具、委派、技能等完整能力。回答简洁准确，能用工具就用工具，优先参考记忆中的用户偏好。"
+    }
+  ],
+  "summary": "",
+  "recent": [
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "\n\n你好！有什么可以帮你的吗？",
+      "reasoning_content": "The user just said \"hello\" — it's a simple greeting. I should reply with a concise greeting.\n",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "/sessions"
+    },
+    {
+      "role": "assistant",
+      "content": "\n\n`/sessions` 不是我支持的命令。我可以帮你查看文件、运行命令、排查 bug、代码审查或生成报告等，告诉我你想做什么？",
+      "reasoning_content": "The user typed \"/sessions\". This looks like a command to check sessions, but my toolset doesn't have a sessions tool. Let me check what's available: read_file, list_files, search_files, write_file, fetch_url, run_shell, delegate_task, skill.\n\nThere's no sessions command. This might be an IM feature, or something the user expects. I should clarify, or explain that /sessions isn't a command I can execute. Maybe they're asking for a list of sessions? Let me check if there's anything in the current directory that might be related to sessions... that seems like overkill.\n\nActually, let me think. The user might be testing commands. I can say I don't recognize that command and ask what they want. Or maybe I could list the files in the current directory to see if there's a sessions file. That might be helpful, but it could also be off the mark.\n\nI think the best response is to briefly tell them that /sessions isn't a supported command and ask what they'd like to do. Keep it short.\n",
+      "tool_calls": null
+    }
+  ]
+}

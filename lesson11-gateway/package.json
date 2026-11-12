@@ -1,0 +1,12 @@
+{
+  "name": "lesson11-gateway",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --test --test-force-exit test.js",
+    "start": "node main.js"
+  },
+  "license": "ISC",
+  "description": "第11课 · 消息网关（Node 版）：QQ 机器人接入 + 每用户会话桥接"
+}

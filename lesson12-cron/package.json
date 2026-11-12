@@ -1,0 +1,12 @@
+{
+  "name": "lesson12-cron",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --test --test-force-exit test.js",
+    "start": "node main.js"
+  },
+  "license": "ISC",
+  "description": "第12课 · 定时任务（Node 版）：cron 解析/nextRun 调度/主动推送集成"
+}

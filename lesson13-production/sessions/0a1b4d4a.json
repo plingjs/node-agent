@@ -1,0 +1,35 @@
+{
+  "session_id": "0a1b4d4a",
+  "title": "hi",
+  "model": "",
+  "created_at": 1787660397094,
+  "updated_at": 1787660412123,
+  "message_count": 2,
+  "system": [
+    {
+      "role": "system",
+      "content": "你是通过 IM 提供服务的 AI 助手，拥有记忆、工具、委派、技能、定时任务等完整能力。回答简洁准确，能用工具就用工具，优先参考记忆中的用户偏好。"
+    }
+  ],
+  "summary": "",
+  "recent": [
+    {
+      "role": "user",
+      "content": "hi"
+    },
+    {
+      "role": "assistant",
+      "content": "\n\nHi！有什么我可以帮你的吗？👋",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "你会做什么"
+    },
+    {
+      "role": "assistant",
+      "content": "\n\n我能帮你做的事挺多的，简单列一下：\n\n**日常工具**\n- 🔍 搜索、读取文件，浏览目录\n- 🌐 抓取网页、调 API 接口\n- 💻 执行 shell 命令（跑脚本、处理数据、统计等）\n- ⏰ 设置定时任务（比如每天9点自动生成日报）\n\n**专门技能**\n- 🐛 **bug-hunt**：从日志和代码里定位 bug 根因\n- 📋 **code-review**：审查代码变更，找 bug、安全隐患、性能问题\n- 📝 **report**：生成结构化的工作报告（摘要、数据、结论、建议）\n\n**协作能力**\n- 可以委派子任务并行处理\n- 有记忆，能记住你的偏好和上下文\n\n有具体想做的事直接说就行～",
+      "tool_calls": null
+    }
+  ]
+}

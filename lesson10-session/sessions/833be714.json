@@ -1,0 +1,37 @@
+{
+  "session_id": "833be714",
+  "title": "你好",
+  "model": "qwen38-27b",
+  "created_at": 1787657845074,
+  "updated_at": 1787657893201,
+  "message_count": 2,
+  "system": [
+    {
+      "role": "system",
+      "content": "你是带记忆、委派、技能、外部系统接入的 Agent。回答简洁准确，优先使用工具探索再回答。"
+    }
+  ],
+  "summary": "",
+  "recent": [
+    {
+      "role": "user",
+      "content": "你好"
+    },
+    {
+      "role": "assistant",
+      "content": "\n\n你好！有什么我可以帮你的吗？",
+      "reasoning_content": "The user said \"你好\" (hello). This is a simple greeting. I should respond naturally in Chinese and let them know that I can help with various tasks. No tools needed for this.\n",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "你当前sessonid是什么"
+    },
+    {
+      "role": "assistant",
+      "content": "\n\n我这边没有可见的 session ID 信息——我的上下文里不包含会话标识，也没有工具能查询到它。如果你需要这个 ID，通常要在你所在平台的界面/控制台或日志里查看（比如对话列表详情、请求响应头或后端日志）。\n\n告诉我你具体想用它做什么，也许我能帮上别的忙。",
+      "reasoning_content": "The user is asking \"你当前sessionid是什么\" (What is your current session ID?). This is a question about my internal state / session ID. I have no access to any such information — the system reminder contains instructions about memory files and identity, but nothing is written about a \"session id\". I shouldn't fabricate an ID. I should answer honestly that I have no visible/accessible session ID information, and suggest that they check the platform interface if they need it.\n\nI'll answer concisely and honestly.\n",
+      "tool_calls": null
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "lesson08-plugin",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --test test.js",
+    "start": "node main.js"
+  },
+  "license": "ISC",
+  "description": "第8课 · Plugin 系统（Node 版）：Hooks 扩展点 + audit-log 安全审计插件"
+}

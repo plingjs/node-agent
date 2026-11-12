@@ -1,0 +1,27 @@
+{
+  "session_id": "427aafd7",
+  "title": "hi",
+  "model": "",
+  "created_at": 1787658783872,
+  "updated_at": 1787658784902,
+  "message_count": 1,
+  "system": [
+    {
+      "role": "system",
+      "content": "你是通过 IM 提供服务的 AI 助手，拥有记忆、工具、委派、技能等完整能力。回答简洁准确，能用工具就用工具，优先参考记忆中的用户偏好。"
+    }
+  ],
+  "summary": "",
+  "recent": [
+    {
+      "role": "user",
+      "content": "hi"
+    },
+    {
+      "role": "assistant",
+      "content": "\n\n你好！有什么可以帮你的吗？",
+      "reasoning_content": "The user sent a casual \"hi\" message. I should reply briefly and naturally. No tool needed. This seems to be a test or greeting message. I'll reply concisely in Chinese (since the system prompt is in Chinese).\n",
+      "tool_calls": null
+    }
+  ]
+}

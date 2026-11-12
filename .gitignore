@@ -1,0 +1,19 @@
+node_modules/
+.vitepress/cache/
+.vitepress/dist/
+.DS_Store
+
+# 本地模型与渠道凭证
+.env
+.env.*
+!.env.example
+**/env.json
+**/env.*.json
+
+# 教学视频制作素材与生成文件
+lesson*/docs/media/
+**/video-script*.md
+*.mp4
+*.mov
+*.key
+*.zip

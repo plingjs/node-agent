@@ -1,0 +1,12 @@
+{
+  "name": "lesson07-skill",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --test test.js",
+    "start": "node main.js"
+  },
+  "license": "ISC",
+  "description": "第7课 · Skill 系统（Node 版）：SKILL.md/注册/显式加载/自动触发/注入"
+}

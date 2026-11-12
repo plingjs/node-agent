@@ -44,6 +44,7 @@ export default withMermaid(defineConfig({
       { text: '入门指南', link: '/docs/beginner-guide' },
       { text: '逐章练习', link: '/docs/beginner-practice' },
       { text: '第一章导读', link: '/lesson01-minimal-agent/docs/request-response-walkthrough' },
+      { text: 'GitHub 仓库', link: 'https://github.com/plingjs/node-agent' },
     ],
     sidebar: [
       {
